@@ -1,8 +1,8 @@
 # Hofstadter Sequences in MATLAB (G, F/M, Q)
 
 Small MATLAB demo that generates and plots Hofstadter sequences:
-**G**, **Female/Male (F/M)**, and **Q**. Meant as a quick reference for
-self-referential / meta-Fibonacci sequences.
+**G**, **Female/Male (F/M)**, and **Q**. A quick demonstration of
+self-referential/meta-Fibonacci sequences.
 
 ![G, F/M, Q screenshots](docs/preview.png)
 
