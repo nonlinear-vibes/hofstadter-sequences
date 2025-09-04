@@ -20,10 +20,10 @@ self-referential/meta-Fibonacci sequences.
 Recurrence (zero-based definition):
 
 ```math
-\begin{gather}
-G(0)=0, \\
-G(n)=n−G⁣(G(n−1)) \quad \text{for} \quad n≥1.
-\end{gather}
+\begin{aligned}
+&G(0)=0, \\
+&G(n)=n−G⁣(G(n−1)) \quad \text{for} \quad n≥1
+\end{aligned}
 ```
 <br/>
 
@@ -39,9 +39,9 @@ Mutually recursive pair (zero-based definition):
 
 ```math
 \begin{gather}
-F(0)=1, \quad M(0)=0, \\
-F(n)=n−M(F(n−1)), \\
-M(n)=n−F(M(n−1)).
+&F(0)=1, \quad M(0)=0, \\
+&F(n)=n−M(F(n−1)), \\
+&M(n)=n−F(M(n−1))
 \end{gather}
 ```
 <br/>
@@ -56,8 +56,8 @@ Zero-based definition:
 
 ```math
 \begin{gather}
-Q(0)=1, \quad Q(1)=1, \\
-Q(n)=Q⁣(n−Q(n−1))+Q⁣(n−Q(n−2)) \quad \text{for} \quad n≥2.
+&Q(0)=1, \quad Q(1)=1, \\
+&Q(n)=Q⁣(n−Q(n−1))+Q⁣(n−Q(n−2)) \quad \text{for} \quad n≥2
 \end{gather}
 ```
 <br/>
